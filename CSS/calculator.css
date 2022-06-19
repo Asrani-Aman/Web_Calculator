@@ -1,0 +1,47 @@
+/*ENTER GOOGLE FONT
+DESIGNINIG*/
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+div.container {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  padding: 20px;
+  margin: 1.1 rem;
+}
+.row {
+  display: flex;
+  justify-content: flex-start;
+  margin: 7px 0px;
+  max-width: 300px;
+  width: 249px;
+  flex-grow: 1;
+}
+
+.row input {
+  /* padding: 5px 10px; */
+  box-sizing: border-box;
+  /* max-width: 100%; */
+  /* width: 100%; */
+  font-size: 1rem;
+  flex-grow: 1;
+  max-height: 30px;
+  height: 30px;
+}
+/* #opr {
+  flex-grow: 1;
+  margin-left: 10px;
+} */
+div.row button {
+  flex-grow: 1;
+}
